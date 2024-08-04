@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  margin:0;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+ }
+
+h1 {
+  text-align: center;
+  background-color: #4ae2d6  ;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  word-spacing: 30px;
+  letter-spacing: -5px;
+  /* padding: 2rem 0; */
+}
+h3 {
+  text-align: center;
+  background-color: #4ae2d6;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem; /* Space between heading and form elements */
+}
+
+.body {
+  height: 100%;
+  margin: 0;
+  font-size: 1.4rem; 
+  font-family: sans-serif;
+  color: #5a3e2b;
+  font-family: "Quicksand";
+  font-weight: 500;
+  grid-area: body;
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row; /* Align children horizontally */
+  /* gap: 2rem; Space between Form and PriorityList */
+  /* padding: 2rem; Space around the content */
+}
+
+.add-form {
+  width: 30%;
+  background-color: #e0f8f4;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  gap: 0.8rem;
+  /* border-radius: 8px; */
+  flex: 1; /* Allow the form to grow and take available space */
+}
+
+.add-form button {
+  text-transform: uppercase;
+  background-color: #4ae2d6;
+  color: #5a3e2b;
+  font-family: inherit;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.list {
+  font-size: 2rem; 
+  font-family: sans-serif;
+  width: 70%;
+  background-color: #e0f8f4;
+  color: #5a3e2b;
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 2; /* Allow the list to take more space than the form */
+  /* margin: 3px; */
+  align-items: flex-start;
+  overflow-y: auto; /* Enables scrolling if needed */
+ }
+
+.list ul {
+  list-style-type: none;
+}
+
+.list li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3px; /* Spacing between items */
+  width: 100%; /* Ensures items take full width of the container */
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add some spacing between todo items */
+}
+
+.todo input[type="checkbox"] {
+  height: 1rem;
+  width: 1rem;
+  accent-color: #e5771f;
+  margin-right: 10px; /* Space between checkbox and text/buttons */
+}
+
+.todo button {
+  text-transform: uppercase;
+  background-color: #4ae2d6;
+  color: #5a3e2b;
+  margin: 3px;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+select,
+input {
+  background-color: #4ae2d6;
+  color: #5a3e2b;
+  border: none;
+  margin: 3px;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.stats {
+  /* padding: 2rem; */
+  background-color: #f5f5dc;
+  color: #5a3e2b;
+  width: 100%; /* Take up full width of the screen */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stats h3 {
+  text-align: center;
+  ?margin: 0;
+  /* margin-bottom: 1rem; */
+  font-size: 1.8rem;
+  color: #5a3e2b;
+}
+
+.stats table {
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.stats th, .stats td {
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.stats th {
+  background-color: #8edbdb;
+  /* color: #fff; */
+  font-weight: bold;
+}
+
+.stats td {
+  /* background-color: #ebeeee; */
+  font-weight: 600;
+}
+
+.stats tr:nth-child(even) {
+  background-color: #8edbdb;
+}
+
+.stats td strong {
+  color: #5a3e2b;
+}
+
+

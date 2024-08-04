@@ -1,0 +1,27 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(123, 210, 216, 0.945);
+  /* display: flex;
+  text-align: center;
+  justify-content: center; */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 5px;
+}
