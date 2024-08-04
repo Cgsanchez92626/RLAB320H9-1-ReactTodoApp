@@ -152,7 +152,7 @@ input {
 
 .stats h3 {
   text-align: center;
-  ?margin: 0;
+  margin: 0;
   /* margin-bottom: 1rem; */
   font-size: 1.8rem;
   color: #5a3e2b;
