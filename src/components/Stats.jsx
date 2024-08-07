@@ -34,12 +34,6 @@ function Stats({ todos }) {
     };
     return acc;
   }, {});
-
-  // Calculate overall percentage contribution
-  // const overallPercentage = categories.reduce((acc, category) => {
-  //   return acc + parseFloat(categoryStats[category].pctOfTotal || 0);
-  // }, 0);
-
     // Adjust the overall percentage to exactly 100%
     const adjustedTotalPercentage = totalTodos > 0 ? 100 : 0; // Total should be 100% if there are todos
 

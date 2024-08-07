@@ -23,8 +23,7 @@ h1 {
   font-weight: 400;
   word-spacing: 30px;
   letter-spacing: -5px;
-  /* padding: 2rem 0; */
-}
+  }
 h3 {
   text-align: center;
   background-color: #4ae2d6;
@@ -44,10 +43,7 @@ h3 {
   font-weight: 500;
   grid-area: body;
   display: flex;
-  /* flex: 1; */
   flex-direction: row; /* Align children horizontally */
-  /* gap: 2rem; Space between Form and PriorityList */
-  /* padding: 2rem; Space around the content */
 }
 
 .add-form {
@@ -59,7 +55,6 @@ h3 {
   align-items: center;
   justify-content: left;
   gap: 0.8rem;
-  /* border-radius: 8px; */
   flex: 1; /* Allow the form to grow and take available space */
 }
 
@@ -88,7 +83,6 @@ h3 {
   justify-content: space-between;
   flex-direction: column;
   flex: 2; /* Allow the list to take more space than the form */
-  /* margin: 3px; */
   align-items: flex-start;
   overflow-y: auto; /* Enables scrolling if needed */
  }
@@ -153,7 +147,6 @@ input {
 .stats h3 {
   text-align: center;
   margin: 0;
-  /* margin-bottom: 1rem; */
   font-size: 1.8rem;
   color: #5a3e2b;
 }
@@ -172,12 +165,10 @@ input {
 
 .stats th {
   background-color: #8edbdb;
-  /* color: #fff; */
   font-weight: bold;
 }
 
 .stats td {
-  /* background-color: #ebeeee; */
   font-weight: 600;
 }
 
